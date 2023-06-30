@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+body{
+    background-color: hsl(218, 22%, 67%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+}
+.principal{
+    border-radius: 10px;
+    margin-top: 80px;
+
+    background-color: white;
+    width: 50vw;
+}
+.inicial{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 35px;
+}
+.title{
+    font: 700 22px 'Karla', sans-serif;
+    color: hsl(179, 62%, 43%);
+
+}
+.sub{
+    font: 700 20px 'Karla', sans-serif;
+    color: hsl(71, 73%, 54%);
+}
+.title-text{
+    font: 400 15px 'Karla', sans-serif;
+    color: hsl(218, 22%, 67%);
+}
+.down{
+    display: flex;
+}
+.sign-up{
+    padding: 40px;  
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 25vw;
+}
+.little-title{
+    color: white;
+    font: 400 18px 'Karla', sans-serif;
+}
+.dollar{
+    font: 400 15px 'Karla', sans-serif;
+    color: gainsboro;
+}
+.dol{
+    margin-right: 5px;
+    color: white;
+    font: 400 28px 'Karla', sans-serif;
+}
+.text{
+    color: white;
+    margin-top: 10px;
+    font: 400 15px 'Karla', sans-serif;
+}
+.button{
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    border-radius: 5px;
+    padding: 13px;
+    font: 400 15px 'Karla', sans-serif;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);;
+}
+.why-us{
+    padding: 40px;  
+    background-color: hsl(179, 63%, 48%); 
+    border-bottom-right-radius: 10px;
+    width: 25vw;
+}   
+.list-text{
+    margin-top: 10px;
+    font: 400 15px 'Karla', sans-serif;
+    color: gainsboro;
+}
+@media screen and (max-width: 900px) {
+    .down{
+        display: flex;
+        flex-direction: column;
+    }
+    .why-us{
+        width: 70vw;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .sign-up{
+        width: 70vw;
+        border-radius: 0;
+    }
+    .principal{
+        width: 70vw;
+    }
+    
+}
